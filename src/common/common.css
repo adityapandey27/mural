@@ -1,0 +1,887 @@
+*{
+    box-sizing: border-box;
+    padding: 0 0;
+    margin: 0 0;
+    /* overflow-x: hidden; */  
+}
+p{
+    margin:0 0;
+    padding:0 0;
+}
+/* NavBar */
+.navbar-main{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    /* justify-content:space-between; */
+    border-bottom: 1px solid rgba(172, 165, 165, 0.591);
+    background-color: white;
+    /* position: sticky; */
+    /* top: 0;  */
+    /* z-index: 1; */
+}
+/* mural logo */
+.logo-mural{
+    height: 100px;
+    width: 130px;
+    margin-left: 65px;
+}
+/* middle part */
+.middle-part{
+    display: flex;
+    flex-direction: row;    
+    margin: auto 20px; 
+}
+.nav-element{
+    width: 100px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.nav-element:hover{
+    color:rgb(74, 74, 214);
+}
+/* right part */
+.right-login{
+    display: flex;
+    flex-direction: row;
+    margin: auto 0 auto 250px;
+    font-weight: bold;  
+    margin-right: 50px;  
+}
+/* sign in */
+.navbar-right-signin{
+    padding:10px 10px;
+    margin-right: 5px;
+}
+.navbar-right-btn{
+    padding:10px 20px;
+    background-color: rgba(56, 55, 55, 0.87);
+    border-radius: 6px;
+    color: #fff;
+    background: linear-gradient(to right, black 50%, rgba(56, 55, 55, 0.87) 50%);
+    transition: all .3s ease-out;
+    background-position: right bottom;
+    background-size: 200% 100%;
+    display: block;
+}
+.navbar-right-btn:hover{
+    background-color:black;
+    /* transition:20ms; */
+    background-position: left bottom;
+    
+}
+
+
+/* ############################################################ */
+/* ############################################################ */
+/* First Page */
+.first-page-container{
+    display: flex;
+    flex-direction: row;
+    margin:5% 0 4% 5%;
+}
+
+.first-page-heading{
+    font-size: 70px;
+}
+
+.first-page-para{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/* left button */
+.firs-page-btn{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/* > */
+.first-page-btn-left1
+{
+ 
+   color: #fff;
+   padding:7px 15px;
+   padding-top:8px;
+   padding-bottom:8px;
+   font-size:25px ;
+   border-radius:5px 0 0 5px;
+   background-color: #FF4B4B;
+   color: black;
+   font-weight: bold;
+
+}
+ 
+/* content */
+.first-page-btn-right{
+    padding:10px 25px;
+    background: linear-gradient(to right, #ff4b4b 50%, #FFCEE0 50%);
+    transition: all .2s ease-out;
+    background-position: right bottom;
+    background-size: 200% 100%;
+    display: block;
+    border-radius:0 5px 5px 0;
+    font-size: 20px;
+    
+
+   
+}
+
+.first-page-btn-right:hover{
+    background-color: #FF4B4B;
+     background-position: left bottom;
+}
+
+/*  right image */
+
+.front-page-right{
+   margin-right: 5px;
+}
+
+.front-page-right-image{
+    height: 600px;
+    width: 830px;
+    margin-left:6%;
+    border-radius: 25px;
+    box-shadow: 0 15px 0 2px rgba(219, 217, 217, 0.276);
+}
+
+.front-page-right-image:hover{
+    box-shadow: 0 15px 0 2px rgba(181, 179, 179, 0.469);
+}
+
+
+
+/* ############################################################ */
+/* ############################################################ */
+/* Second Page */
+
+.second-page-container{
+    background-color: black;
+    padding:20px 0;
+}
+
+.second-page-para{
+    margin:40px 5%;
+    color:#fff;
+    font-size: 40px;
+    
+}
+
+
+/* ############################################################ */
+/* ############################################################ */
+/* Third Page */
+
+.third-page-container{
+    background-color: #5887FF;
+    padding:0 5% 100px 5%;
+}
+
+/* main heading */
+.third-page-contianer-heading{
+    font-size: 70px;
+    font-weight: bold;
+   padding:90px 0 60px 0;
+    color: rgb(0, 0, 0);
+}
+
+/* belows main heading part */
+.third-page-bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+/* left side image */
+.third-page-bottom-left-image
+{
+    width: 550px;
+    height: 650px;
+}
+
+
+/* right part */
+.third-page-bottom-right{
+    font-size: 25px;
+    text-align: left;
+    margin:100px 30px 0 100px;
+}
+
+.third-page-bottom-right-para{
+    padding:8px 0;
+}
+
+.third-page-bottom-right-para-a{
+    padding:8px 0 30px 0;
+    font-weight: bolder;
+}
+
+
+
+/* ############################################################ */
+/* ############################################################ */
+/* Fourth Page */
+
+.fourth-page-container{
+    background-color: #00C27A;
+    padding:2% 5%;
+}
+
+.fourth-page-heading{
+    padding:5% 0;
+    font-size: 35px;
+    display: flex;
+}
+
+.fourth-page-div{
+    font-size: 85px;
+    padding:10px 0;
+}
+
+.fourth-page-div:hover{
+    
+    color: #fff;
+    /* transform: */
+    /* transform: rotate(10deg); */
+    /* translate:0 100px 0 0; */
+    transform: translateX(20px);
+    
+    transition: all .4s ease-out;
+    
+}
+hr{
+    border: 5px solid black;
+    border-top:none;
+    border-left: none;
+    border-right: none; 
+}
+
+/* Lowest part */
+.fourth-page-div-container{
+    display: flex;
+    flex-direction: row;
+    padding:100px 0;
+    align-items: center;
+}
+
+.fourth-page-div-data{
+    font-size: 18px;
+    margin-right: 455px;
+
+}
+/* > */
+.first-page-btn-fourth{
+    padding-left: 100%;
+}
+
+.first-page-btn-left2{
+    background-color: #FFAA00;
+}
+
+.first-page-btn-right21{
+    background: linear-gradient(to right, #FFAA00 50%, #FFED87 50%);
+    transition: all .2s ease-out;
+    background-position: right bottom;
+    background-size: 200% 100%;
+    display: block;
+    
+
+}
+
+.first-page-btn-right21:hover{
+    background-color: #FFAA00;
+    background-position: left bottom;
+}
+
+
+/* ############################################################ */
+/* ############################################################ */
+/* Fifth Page */
+
+.fifth-page-div-container{
+    padding:0 0 0 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.fifth-page-left{
+    display: flex;
+    flex-direction: row;
+    padding-top:40px;
+}
+
+.company-name{
+    width: 200px;
+    height:180px;  
+}
+
+.company-right{
+    margin-left: 100px;
+}
+
+.fifth-page-left{
+    width: 160px;
+    height: 80px; 
+    padding-bottom: 5px;
+}
+
+.slider-div{
+    width:160px;
+    height: 5px;
+    background: linear-gradient(to right, #FFAA00 50%, #FFfF 50%);
+    transition: all .2s ease-out;
+    background-position: right bottom;
+    background-size: 200% 100%;
+    display: block;
+}
+
+.slider-div:hover{
+    background-color: #FFAA00;
+    background-position: left bottom;
+    
+}
+
+.fifth-page-right{
+    margin-left: 35%;
+    
+}
+
+.fifth-page-right-para{
+    padding:40px 20px 40px 30px;
+    font-size: 33px;
+    word-spacing: 5px;
+    background-color: #BE53FF;   
+}
+
+.fifth-page-right-slider-div{
+    width:200px;
+    height: 4px;
+    background: linear-gradient(to right, #000000 50%, rgba(112, 109, 109, 0.575) 50%);
+    transition: all .2s ease-out;
+    background-position: right bottom;
+    background-size: 200% 100%;
+    display: block;
+}
+
+.fifth-page-right-slider-div:hover{
+
+    background-color: #000000;
+    background-position: left bottom;
+}
+
+.fifthe-page-right-subHeading{
+    font-size: 20px;
+    word-spacing:0;
+    margin:40px 0 0 0;
+}
+
+.fifth-page-lastimage{
+    width: 620px;
+    height: 190px;
+}
+
+
+/* ############################################################ */
+/* ############################################################ */
+/* Sixth Page */
+
+.sixth-page-container{
+    height: 20%;
+    width: 100%;
+
+}
+
+.sixth-page-img{
+    height: 20%;
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+
+.sixth-page-img-con{
+    /* display: flex;
+    flex-direction: row; */
+    
+}
+
+
+/* ############################################################ */
+/* ############################################################ */
+/* Seventh Page */
+.seventh-page-container{
+    margin-bottom: 50px;
+}
+
+.seventh-page-1{
+    height: 5%;
+    width: 100%;
+}
+
+.seventh-page-div-1{
+    background-color: #fff;
+    padding-left: 43%;
+    font-size: 20px;
+}
+
+.slider-div-10{
+    width:320px;
+    height: 5px;
+    background: linear-gradient(to right,  rgba(40, 232, 146) 50%, rgba(113, 231, 178, 0.558) 50%);
+    transition: all .3s ease-out;
+    background-position: right bottom;
+    background-size: 200% 100%;
+    display: block;
+}
+
+.slider-div-10:hover{
+
+    background-color:  rgb(40, 232, 146);
+    background-position: left bottom;
+}
+
+
+
+.firs-page-btn100{
+    margin-left: 35%;
+    padding-bottom: 20px;
+}
+
+.e7th-last-para{
+    margin-left: 35%;
+}
+
+.first-page-btn-left2{
+    background-color: #FFAA00;
+}
+
+.first-page-btn-right21{
+    background: linear-gradient(to right, #FFAA00 50%, #FFED87 50%);
+    transition: all .2s ease-out;
+    background-position: right bottom;
+    background-size: 200% 100%;
+    display: block;
+
+}
+
+.first-page-btn-right21:hover{
+    background-color: #FFAA00;
+    background-position: left bottom;
+}
+
+/* ############################################################ */
+/* ############################################################ */
+/* Eight Page */
+
+.eight-page-container{
+    /* border-top:10px solid black; */
+    padding-bottom: 80px;
+}
+
+.eight-page-container-img{
+    height: 10%;
+    width: 100%;
+}
+
+.eight-page-div{
+    height: 10%;
+    width: 100%;
+}
+
+.eight-page-div-bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.eight-page-div-bottom1{
+   height: 350px;
+   width: 500px;
+}
+
+.eight-page-div-bottom-left-img{
+    height: 450px;
+    width: 500px;
+
+}
+
+.eight-page-div-bottom-right-para{
+    width: 100%;
+}
+
+.eight-page-div-bottom-right{
+    width: 100%;
+}
+
+.first-page-btn-left22{
+    background-color: #5887FF;
+}
+
+.first-page-btn-right221{
+    background: linear-gradient(to right, #5887FF 50%, #BED7FF 50%);
+    transition: all .2s ease-out;
+    background-position: right bottom;
+    background-size: 200% 100%;
+    display: block;
+
+}
+
+.first-page-btn-right221:hover{
+    background-color: #5887FF;
+    background-position: left bottom;
+}
+
+.firs-page-btn1000{
+    padding: 0 0 0 30px;
+    margin: 0 0;
+}
+
+/* ############################################################ */
+/* ############################################################ */
+/* White Board */
+
+.whiteboard-continer-img{
+    display: flex;
+    flex-direction: row;
+}
+
+.white-div-a1{
+    height: 45px;
+    width: 295px;
+    margin-top:20px;
+    border-radius: 20px;
+    
+    padding: 2px 2px;
+    background-color: #000000;
+    margin-left: 5%;
+    visibility: hidden;
+    /* transition: ease-in;
+    transition-property: transform;
+    transition-delay: 2s;
+    transition-duration: 2s; */
+    
+}
+
+
+.a1{
+    height: 40px;
+    width: 291px;
+    border-radius: 20px;
+    
+
+    
+    /* background: linear-gradient(to right, #000000 50%, #FFE146 50%); */
+    
+}
+
+
+@keyframes a1{
+    from{
+            opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+
+    }
+
+}
+
+.white-div-a2{
+    height: 45px;
+    width: 295px;
+    margin-top:20px;
+    border-radius: 20px;
+    padding: 2px 2px;
+    background-color: #000000;
+    margin-left: 35%;
+    visibility: hidden;
+
+}
+.a2{
+    height: 40px;
+    width: 291px;
+    border-radius: 20px;
+    
+    
+}
+
+.white-div-a3{
+    height: 45px;
+    width: 85px;
+    margin-top:20px;
+    border-radius: 20px;
+    padding: 2px 2px;
+    background-color: #000000;
+    margin-left: 2%;
+    visibility: hidden;
+
+}
+.a3{
+    height: 40px; 
+    width: 80px; 
+    border-radius: 20px;
+    
+    
+}
+
+.white-div-a4{
+    height:445px;
+    width:42px;
+    margin-top:2px;
+    border-radius: 20px;
+    padding: 2px 2px;
+    background-color: #000000;
+    margin-left: 2%;
+    z-index: 1;
+    visibility: hidden;
+}
+.a4{
+    height:445px; 
+    width:40px; 
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.white-div-a5{
+    height: 50px;
+    width: 325px;
+    margin-top:2px;
+    border-radius: 20px;
+    padding: 2px 2px;
+    background-color: #000000;
+    margin-left: 29%;
+    z-index: 1;
+    visibility: hidden;
+}
+.a5{
+    height: 45px; 
+    width: 320px;
+    border-radius: 20px;
+    z-index: 1;
+    
+}
+
+.white-div-a6{
+    height: 50px;
+    width: 315px;;
+    margin-top:2px;
+    border-radius: 20px;
+    padding: 2px 2px;
+    background-color: #000000;
+    margin-left: 14%;
+    z-index: 1;
+    visibility: hidden;
+    
+}
+.a6{
+    height: 45px; 
+    width: 310px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.whiteboard-continer{
+    height: 650px;
+    padding-top: 35px;
+    background-color: #FC83FF;
+    /* opacity:'1';  */
+    align-items: center;
+   
+    
+}
+
+
+.white-board-middle-part{
+    display: flex;
+    flex-direction: row;
+       
+}
+
+
+.white-board-middle-part{
+    height: 300px;
+    font-size: 90px;
+    background-color:#FFE146;
+    border-radius: 20px;
+     margin: 50px 100px 0px 200px; 
+    background: linear-gradient(to right, #000000 50%, #FFE146 50%);
+    transition: all .2s ease-out;
+    background-position: right bottom;
+    background-size: 200% 100%;
+    /* visibility:visible; */
+    /* display: block;  */
+    transform: translateX(-20px);
+}
+
+.white-board-middle-part:hover{
+    background-color: #000000;
+    background-position: left bottom;
+    color:#FFE146 ;
+    transform: translateY(30px);
+    
+    /* visibility: hidden; */
+    
+}
+
+.white-board-middle-part1{
+    background-color: #000000;
+    padding: 5px 20px;
+    border-radius: 20px 0 0 20px;
+   
+}
+
+.white-board-middle-part1-text{ 
+    padding: 50px 80px 50px 80px;
+    padding-left: 150px;
+}
+
+.white-board-middle-part21{
+  
+
+}
+
+/* .whiteboard-main-backgroud{
+    z-index: 0;
+    position: relative;
+
+} */
+
+
+/* ############################################################ */
+/* ############################################################ */
+/* Eight Page */
+.main-footer{
+    background-color: #EDEDDB;
+    padding:70px 30px 30px 30px;
+    font-size: 20px;
+}
+.main-footer-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.part-div{
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.middle-p{
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.left-ul{
+    margin: 5px 10px;
+}
+
+.li:hover{
+    text-decoration: underline;
+}
+
+.footer-logo{
+    height: 150px;
+    width: 150px;
+}
+
+.footer-logo-div{
+    height: 150px;
+    width: 150px;
+}
+
+.footer-last-div-p{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-last1{
+padding-left: 24%;
+padding-top: 50px;
+font-size: 14px;
+}
+
+
+.footer-last1:hover{
+    padding-left: 24%;
+    padding-top: 50px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.footer-last2{
+    padding-left: 18%;
+    font-size: 14px;
+    padding-top: 50px;
+}
+
+.footer-last2:hover{
+    padding-left: 18%;
+    font-size: 14px;
+    padding-top: 50px;
+}
+
+.sixth-page-container{
+    background-color: #EDEDDB;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+.sixth{
+    display: flex;
+    flex-direction: row;
+}
+.sixth-left-head{
+    font-size: 55px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.sixth-left-head1{
+    margin-top: 100px;
+    font-size: 20px;
+    margin-left: 350px;
+}
+
+.final-continer{
+    display: flex;
+    flex-direction: row;
+    background-color: #EDECDA;
+    padding-left: 150px;
+}
+.final-left1{
+    font-size: 65px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.final-left2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.first-page-btn-left110{
+ color: #fff;
+   padding:7px 15px;
+   padding-top:8px;
+   padding-bottom:8px;
+   font-size:25px ;
+   border-radius:5px 0 0 5px;
+   background-color: #BF52FF;
+   color: black;
+   font-weight: bold;
+}
+
+.first-page-btn-right10{
+   background: linear-gradient(to right, #BF52FF 50%, #E7BEFF 50%);
+    transition: all .2s ease-out;
+    background-position: right bottom;
+    background-size: 200% 100%;
+    display: block;
+
+
+    
+}
+.first-page-btn-right10:hover{
+    background-color: #E7BEFF;
+    background-position: left bottom;
+}
